@@ -5,10 +5,10 @@ Surge module written by me
 实现打开Surge，Safari搜索从百度跳转到Google；  
 关闭Surge，还是默认百度搜索  
 ### iOS版本
-[iOSBaidu2Google.sgmodule](./baidu2google/iOSBaidu2Google.sgmodule?raw=true)  
+📱[iOSBaidu2Google.sgmodule](./baidu2google/iOSBaidu2Google.sgmodule?raw=true)  
 仅适用于iPhone等小屏幕设备
 
 ### iPadOS版本
-[iPadOSBaidu2Google.sgmodule](./baidu2google/iPadOSBaidu2Google.sgmodule?raw=true)  
+📔[iPadOSBaidu2Google.sgmodule](./baidu2google/iPadOSBaidu2Google.sgmodule?raw=true)  
 适用于iPad等设备，Mac端未测试  
 但是Mac不都是一直开着Surge的吗？😂  
