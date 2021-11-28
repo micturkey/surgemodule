@@ -1,0 +1,7 @@
+#!name=iOSBaidu2Google
+#!desc=Redirect iOS Safari's search engine from Baidu to Google without affecting user's search from baidu.com
+[URL Rewrite]
+^https?:\/\/m\.baidu\.com\/s\?from\=1000539d.*word=(.*?)(?=&|$).* https://www.google.com/search?q=$1 302
+
+[MITM]
+hostname = %APPEND% m.baidu.com
