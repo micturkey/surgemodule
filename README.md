@@ -6,6 +6,7 @@ Surge module written by me
 打开Surge，Safari搜索从百度跳转到Google  
 关闭Surge，还是默认百度搜索  
 不管Surge是否打开，直接访问百度都可以进行搜索  
+修改自 https://www.v2ex.com/t/818326?p=1#r_11117415 [@ivvi](https://www.v2ex.com/member/ivvi)   
 ### iOS版本
 📱[iOSBaidu2Google.sgmodule](./baidu2google/iOSBaidu2Google.sgmodule?raw=true)  
 仅适用于iPhone等小屏幕设备
