@@ -1,7 +1,7 @@
 #!name=iPadOSBaidu2Google
 #!desc=Redirect iPadOS Safari's search engine from Baidu to Google without affecting user's search from baidu.com
 [URL Rewrite]
-^https?:\/\/www\.baidu\.com.*wd=(.*?)(?=&|$)&tn=84053098_4_dg https://www.google.com/search?q=$2 302
+^https?:\/\/www\.baidu\.com.*wd=(.*?)(?=&|$)&tn=84053098_4_dg https://www.google.com/search?q=$1 302
 
 [MITM]
 hostname = %APPEND% www.baidu.com
