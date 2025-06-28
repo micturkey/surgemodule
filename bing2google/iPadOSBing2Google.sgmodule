@@ -3,7 +3,7 @@
 #!category=Search2Google
 
 [URL Rewrite]
-^https?:\/\/www\.bing\.com\/search\?q\=(.+?)\&form\=APIPH1\&PC\=APPD.* https://www.google.com/search?q=$1 302
+^https?:\/\/www\.bing\.com\/search\?q\=(.+?)\&form\=APIPA1\&PC\=APPD.* https://www.google.com/search?q=$1 302
 
 [MITM]
 hostname = %APPEND% www.bing.com
