@@ -1,5 +1,6 @@
 #!name=iOSBing2Google
 #!desc=Redirect iOS Safari's search engine from Bing to Google without affecting user's search from bing.com
+#!category=Search2Google
 
 [URL Rewrite]
 ^https?:\/\/www\.bing\.com\/search\?q\=(.+?)\&form\=APIPH1\&PC\=APPL.* https://www.google.com/search?q=$1 302
