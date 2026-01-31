@@ -6,4 +6,4 @@
 ^https?:\/\/([A-Za-z0-9-]+\.)?lightnovel\.us(\/.*)?$ https://$1lightnovel.fun$2 302
 
 [MITM]
-hostname = %APPEND% lightnovel.us
+hostname = %APPEND% *.lightnovel.us
