@@ -2,9 +2,12 @@
 #!desc=Redirect *.lightnovel.us to *.lightnovel.fun (keep path & query)
 #!category=Redirect
 
-[Body Rewrite]
+[URL Rewrite]
 #^https?:\/\/([A-Za-z0-9-]+\.)?lightnovel\.us(\/.*)?$ https://$1lightnovel.fun$2 302
-http-request ^https?:\/\/([A-Za-z0-9-]+\.)?lightnovel\.us\/.* lightnovel\.us lightnovel.fun
+
+[Header Rewrite]
+http-request  
+http-request ^https?:\/\/([A-Za-z0-9-]+\.)?lightnovel\.us\/.* header-replace-regex Host lightnovel\.us lightnovel.fun
 
 [MITM]
 hostname = %APPEND% *.lightnovel.us
