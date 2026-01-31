@@ -6,7 +6,6 @@
 #^https?:\/\/([A-Za-z0-9-]+\.)?lightnovel\.us(\/.*)?$ https://$1lightnovel.fun$2 302
 
 [Header Rewrite]
-http-request  
 http-request ^https?:\/\/([A-Za-z0-9-]+\.)?lightnovel\.us\/.* header-replace-regex Host lightnovel\.us lightnovel.fun
 
 [MITM]
