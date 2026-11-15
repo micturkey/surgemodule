@@ -2,7 +2,7 @@
 #!desc=用 Surge 替代 LocalDevVPN 做 10.7.0.1 回环（需 Surge iOS 5.23.0+，开增强模式）
 
 [General]
-ipv6-vif = disabled
+#ipv6-vif = disabled
 tun-included-routes = %INSERT% 10.7.0.1/32
 
 [IP Rewrite]
